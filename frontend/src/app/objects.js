@@ -72,24 +72,24 @@ export const features = [
     {
         name: 'Artist Booking',
         description:
-            "Boost your artistry's exposure! Join Feteflex to connect with a wider audience and effortlessly increase your bookings",
+            "Elevate your venue's visibility! List with Feteflex to reach a broader audience and maximize your bookings effortlessly.",
         icon: MusicalNoteIcon,
-        image: 'https://media.istockphoto.com/id/1125877063/photo/mixed-race-woman-singing-and-playing-guitar.jpg?s=612x612&w=0&k=20&c=23unW_Ugni5lUvAY2nccGkxtWQ5FtkiWgRyyN6wZMFs='
+        image: 'https://media.istockphoto.com/id/1337024740/photo/abstract-pastel-gray-color-and-gradient-white-light-background-in-studio-table-backdrops.jpg?s=612x612&w=0&k=20&c=_llvmKRKLzOPBdObLLWF_XxUX3JYduCkRgVFhWeqtkQ='
     },
 
     {
         name: 'Venue Booking',
         description:
-            "Elevate your venue's visibility! List with Feteflex to reach a broader audience and maximize your bookings effortlessly",
+            "Stand out in the crowded event planning market! showcase your services to a wider audience and simplify your bookings.",
         icon: BuildingLibraryIcon,
-        image: 'https://media.istockphoto.com/id/1193140198/photo/receptionist-and-businesswoman-at-hotel-front-desk.jpg?s=612x612&w=0&k=20&c=VMUzFdFxFIC0AMdqAQjJehZw2vfdfrJ7lQGISBYQnQw='
+        image: 'https://media.istockphoto.com/id/1337024740/photo/abstract-pastel-gray-color-and-gradient-white-light-background-in-studio-table-backdrops.jpg?s=612x612&w=0&k=20&c=_llvmKRKLzOPBdObLLWF_XxUX3JYduCkRgVFhWeqtkQ='
     },
     {
         name: 'Organizer Booking',
         description:
-            "Stand out in the crowded event planning market! showcase your services to a wider audience and simplify your bookings",
+            "Boost your artistry's exposure! Join Feteflex to connect with a wider audience and effortlessly increase your bookings",
         icon: ArrowPathIcon,
-        image: 'https://images.pexels.com/photos/5566960/pexels-photo-5566960.jpeg?auto=compress&cs=tinysrgb&w=600'
+        image: 'https://media.istockphoto.com/id/1337024740/photo/abstract-pastel-gray-color-and-gradient-white-light-background-in-studio-table-backdrops.jpg?s=612x612&w=0&k=20&c=_llvmKRKLzOPBdObLLWF_XxUX3JYduCkRgVFhWeqtkQ='
     },
 ]
 

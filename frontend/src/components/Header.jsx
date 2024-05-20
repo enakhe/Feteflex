@@ -15,8 +15,8 @@ const Header = () => {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
 	return (
-		<header className="relative z-50 inset-x-0 header-bg">
-			<nav className="flex items-center justify-between p-6 lg:px-8 fixed top-0 left-0 right-0 bg-[#2A2447]" aria-label="Global">
+		<header className="relative container z-50 inset-x-0 header-bg">
+			<nav className="flex items-center justify-between rounded-b-lg p-6 lg:px-32 fixed top-0 left-0 right-0 bg-[#F1EEF7]" aria-label="Global">
 				<div className="flex lg:flex-1">
 					<a href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">Feteflex</span>
@@ -29,7 +29,7 @@ const Header = () => {
 				<div className="flex lg:hidden">
 					<button
 						type="button"
-						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-dark"
 						onClick={() => setMobileMenuOpen(true)}>
 						<span className="sr-only">Open main menu</span>
 						<Bars3Icon className="h-6 w-6" aria-hidden="true" />
@@ -44,8 +44,8 @@ const Header = () => {
 				</div>
 				<div className="hidden lg:flex lg:flex-1 lg:justify-end">
 					<a href='#contact'>
-						<Button variant="gradient" color="white" className='font-family capitalize text-gray-900'>
-							Join Waitlist
+						<Button variant="gradient" color="white" className='font-family capitalize bg-[#2A2346] text-[#F1EEF7]'>
+							Get Started
 						</Button>
 					</a>
 				</div>
@@ -63,7 +63,7 @@ const Header = () => {
 						</a>
 						<button
 							type="button"
-							className="-m-2.5 rounded-md p-2.5 text-gray-700"
+							className="-m-2.5 rounded-md p-2.5 text-black"
 							onClick={() => setMobileMenuOpen(false)}
 						>
 							<span className="sr-only">Close menu</span>

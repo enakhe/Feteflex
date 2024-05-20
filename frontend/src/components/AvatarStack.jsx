@@ -1,5 +1,8 @@
 import { Avatar } from '@material-tailwind/react'
 import avatar from '../assets/avatar.png'
+import waitlist1 from '../assets/waitlist1.png'
+import waitlist2 from '../assets/waitlist2.png'
+
 
 const AvatarStack = () => {
     return (
@@ -8,25 +11,19 @@ const AvatarStack = () => {
                 variant="circular"
                 alt="user 1"
                 className="border-2 border-white hover:z-10 focus:z-10"
-                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                src={waitlist1}
             />
             <Avatar
                 variant="circular"
                 alt="user 2"
                 className="border-2 border-white hover:z-10 focus:z-10"
-                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80"
+                src={waitlist2}
             />
             <Avatar
                 variant="circular"
                 alt="user 3"
                 className="border-2 border-white hover:z-10 focus:z-10"
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
-            />
-            <Avatar
-                variant="circular"
-                alt="user 4"
-                className="border-2 border-white hover:z-10 focus:z-10"
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+                src="https://media.istockphoto.com/id/1325565779/photo/smiling-african-american-business-woman-wearing-stylish-eyeglasses-looking-at-camera-standing.jpg?s=612x612&w=0&k=20&c=wsNA_POOFtsKGjucqci4ndeSX-NWcT3hEt9E3a_oXpY="
             />
             <Avatar
                 variant="circular"
