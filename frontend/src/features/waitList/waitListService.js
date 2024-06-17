@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // eslint-disable-next-line no-undef
-const API_URL = `https://api.feteflex.com/api/waitList/`;
+const API_URL = `https://feteflex.com/api/waitList/`;
 
 // Add WaitList
 const addWaitList = async (userData) => {

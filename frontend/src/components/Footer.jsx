@@ -1,4 +1,3 @@
-import whiteLogo from '../assets/header-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter, faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { navigation } from '../app/objects';
@@ -10,8 +9,6 @@ import Spiner from '../components/Spiner'
 import SelectMenus from './SelectMenus';
 import { toast } from "react-toastify";
 import { PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
-
-import ScrollAnimation from 'react-animate-on-scroll';
 import { useEffect, useState } from 'react';
 import { addWaitList, reset } from '../features/waitList/waitListSlice';
 
@@ -80,7 +77,7 @@ const Footer = () => {
 
     return (
 
-        <footer className="bg-[#2A2346] mt-72 lg:mt-0">
+        <footer className="bg-[#2A2346] lg:mt-0">
             <div className="mx-auto w-full max-w-screen-xl p-6 py-6 lg:py-8">
 
                 <div className="md:grid md:grid-cols-2 lg:grid-cols-2 gap-10" id='contact'>
@@ -98,7 +95,7 @@ const Footer = () => {
                                             <GlassInputNoButton placeholder='Phone Number' value={phoneNumber} onChange={onChange} error={errors.phoneNumber} type={'tel'} name='phoneNumber' />
                                             <SelectMenus placeholder='Service Category' value={serviceCategory} onChange={onChange} error={errors.serviceCategory} name='serviceCategory' />
                                         </div>
-                                        <Button size='lg' type='submit' className='capitalize font-family bg-[#352866] my-3 w-full'>
+                                        <Button size='lg' type='submit' className='capitalize font-family bg-[#2a2346] my-3 w-full'>
                                             {
                                                 isLoading ? <Spiner /> : "Join Waitlist"
                                             }

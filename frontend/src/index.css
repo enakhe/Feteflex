@@ -98,6 +98,10 @@
 	border-radius: 1rem;
 }
 
+video {
+	height: 400px;
+}
+
 .center {
 	display: flex;
 	justify-content: center;
@@ -153,6 +157,22 @@
 	}
 }
 
+.phones {
+	animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(calc(-300px * 7));
+	}
+
+	/* Adjust the calculation based on the number of images and their width */
+}
+
 .mt-96 {
 	margin-top: 45rem;
 }
@@ -170,6 +190,22 @@
 	/* Firefox */
 }
 
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: white;
+	border-radius: 20px;
+	margin: 10px 0;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #2A2346;
+	border-radius: 20px;
+	border: 3px solid white;
+}
+
 .bg-gradient {
 	background: linear-gradient(to bottom, #f8f8f8, #dcd8eb, #c0b9dd, #a59bcf, #8a7dc0, #796bb0, #685aa0, #574991, #4b3f7d, #40356a, #352c58, #2a2346);
 }
@@ -180,6 +216,10 @@
 
 .tab-text {
 	text-align: start !important;
+}
+
+.h-mine {
+	height: 30.5rem;
 }
 
 @keyframes pulse {
@@ -195,7 +235,7 @@
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 640px) {
 	video {
-		width: 100%;
+		width: 700px;
 		height: 320px;
 	}
 }
@@ -214,16 +254,16 @@
 	}
 }
 
-@media only screen and (min-width: 960px) {}
+@media only screen and (min-width: 960px) {
+	video {
+		width: 700px;
+		height: 390px;
+	}
+}
 
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 64em) {
 	.padding-utils {
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-	}
-
-	.about {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
 	}
@@ -238,12 +278,5 @@
 
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 1272px) {
-	.about {
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-	}
+
 }
-
-@media only screen and (min-width: 1279px) {}
-
-@media only screen and (min-width: 1495px) {}

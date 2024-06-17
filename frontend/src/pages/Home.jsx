@@ -7,7 +7,7 @@ import Header from '../components/Header'
 const Home = () => {
     return (
         <Fragment>
-            <div className='header'>
+            <div>
                 <Header />
                 <CallToAction />
             </div>
